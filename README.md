@@ -34,7 +34,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://github.com/chukwuemeligonwajuaku/four-card-feature-section-master]
-- Live Site URL: 
+- Live Site URL: [https://chukwuemeligonwajuaku.github.io/four-card-feature-section-master/]
 
 ## My process
 
@@ -66,8 +66,9 @@ This challenge helped me practice:
 
 ## Author
 
-- Website: 
+- Website: [https://chukwuemeligonwajuaku.github.io/four-card-feature-section-master/]
 - Frontend Mentor: [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [https://github.com/chukwuemeligonwajuaku]
 
 ## Acknowledgments
+I would like to thank the almighty God for how thus far he has helped me.
