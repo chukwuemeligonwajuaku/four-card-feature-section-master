@@ -1,0 +1,197 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 4rem 1.5rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    background: hsl(0, 0%, 100%);
+}
+
+.p-1 {
+    color: hsl(212, 6%, 44%);
+    font-size: 2rem;
+    font-weight: 200;
+    width: min(100%, 35rem);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.p-2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto;
+    color: hsl(234, 12%, 34%);
+    width: min(100%, 35rem);
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.p-3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    margin: auto;
+    width: min(100%, 35rem);
+    text-align: center;
+}
+
+.p-0 {
+     font-size: 1rem;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    margin-top: auto;
+}
+
+.section {
+    width: min(100%, 70rem);
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.middle-cards {
+    display: grid;
+    gap: 2rem;
+}
+
+.section-1 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px hsl(212, 6%, 44%);
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 15.75rem;
+}
+
+.section-1 img {
+    width: 15%;
+     margin-top: auto;
+    align-self: flex-end;
+    
+}
+
+.section-1 .p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.section-2 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px hsl(212, 6%, 44%);
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    min-height: 15.75rem;
+    padding: 10px;
+}
+
+.section-2 img {
+    width: 15%;
+     margin-top: auto;
+    align-self: flex-end;
+   
+}
+
+.section-2 .p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.section-3 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px hsl(212, 6%, 44%);
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    min-height: 15.75rem;
+    padding: 10px;
+}
+
+.section-3 img {
+    width: 15%;
+     margin-top: auto;
+    align-self: flex-end;
+    
+}
+
+.section-3 .p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.section-4 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 5px hsl(212, 6%, 44%);
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 15.75rem;
+}
+
+.section-4 img {
+    width: 15%;
+     margin-top: auto;
+    align-self: flex-end;
+    
+}
+
+
+.section-4 .p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 800px) {
+    body {
+        padding-top: 3rem;
+    }
+
+    .p-1,
+    .p-2 {
+        font-size: 1.5rem;
+    }
+
+    .section {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+
+    .middle-cards {
+        gap: 1.5rem;
+    }
+}
